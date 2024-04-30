@@ -22,6 +22,8 @@ Este debe ser explicito con respecto al contenido, además debe ser escrito como
 
 ### Archivos Markdown (.md)
 
+Actualmente se esta utilizando Markdown, por lo que es necesario conocer su sintaxis, [Guia de Markdown](https://tutorialmarkdown.com/guia). Actualmente se soporta la versión extendida, por lo que es posible colocar etiquetas html.
+
 El primer bloque debe ser de la siguiente manera.
 
 ```md
@@ -32,4 +34,31 @@ description: Descripción de la página
 
 ```
 
-...aun faltan más detalles.
+### Bloques de código
+
+Si quieres mostrar bloques de código es necesario lo haces de la siguiente manera
+\```lang
+code here
+\```
+
+| Nombre | lang |
+| PHP | php |
+| JavaScript | javascript |
+| Bash | bash |
+| Markdown | markdown |
+| Assembly | asm |
+
+### Componentes
+
+Es posible utilizar Componentes, actualmente se tiene la siguiente lista de componentes
+
+#### mermaid
+
+Se utiliza de la siguiente manera
+```markdown
+<mermaid>
+Code here
+</mermaid>
+```
+
+Es importante resalta que un reglon vacio causa error de sintaxis :)
