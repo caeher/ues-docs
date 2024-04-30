@@ -42,6 +42,7 @@ code here
 \```
 
 | Nombre | lang |
+| --- | --- |
 | PHP | php |
 | JavaScript | javascript |
 | Bash | bash |
