@@ -63,29 +63,3 @@ Code here
 ```
 
 Es importante resalta que un reglon vacio causa error de sintaxis :)
-
-```mermaid
-graph TB
-    GG[Gerente General]
-    DV[Departamento de Ventas]
-    DC[Departamento de Compras]
-    DP[Departamento de Producción]
-    DRH[Departamento de Recursos Humanos]
-    UC[Unidad de Cumplimiento]
-    AE[Auditoría Externa]
-    GG --> DV
-    GG --> DC
-    GG --> DP
-    GG --> DRH
-    GG --> UC
-    GG --> AE
-```
-```mermaid
-graph TB
-    GG[Gerente General] --> DV[Departamento de Ventas]
-    GG --> DC[Departamento de Compras]
-    GG --> DP[Departamento de Producción]
-    GG --> DRH[Departamento de Recursos Humanos]
-    GG --> UC[Unidad de Cumplimiento]
-    GG --> AE[Auditoría Externa]
-```
