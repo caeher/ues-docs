@@ -1,1 +1,7 @@
 title: Microprogramación
+description: |
+  En este curso se estudian los conceptos fundamentales de la microprogramación, 
+  la cual es una técnica de diseño de hardware que permite implementar 
+  instrucciones de máquina en un procesador.
+icon: i-file-icons-assembly-arm
+class: col-span-6 row-span-2
